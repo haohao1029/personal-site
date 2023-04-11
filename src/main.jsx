@@ -1,22 +1,32 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
-import { Canvas } from '@react-three/fiber'
+import {
+  createBrowserRouter,
+  RouterProvider, NavLink, Link, BrowserRouter
+} from 'react-router-dom'
+import { AboutMe } from './pages/AboutMe'
+import { Root } from './Root'
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        path: "/about-me",
+        element: <AboutMe />,
+      }
+    ]
+  },
+
+]);
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div style={{ height: "100vh", width: "100wh" }}>
-      <Canvas
-        camera={{
-          fov: 45,
-          near: 0.1,
-          far: 2000,
-          position: [-3, 1.5, 4]
-          
-        }}
-      >
-        <App />
-      </Canvas>
-    </div>
+
+
+    <RouterProvider router={router} />
+
   </React.StrictMode>,
 )
