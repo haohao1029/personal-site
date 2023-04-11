@@ -8,7 +8,7 @@ export function Root() {
                 <h1 className="logo">Kingsley Gan</h1>
                 <nav>
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/about-me">About Us</NavLink>
+                    <NavLink to="/about-me">About Me</NavLink>
                 </nav>
             </header>
             <Outlet />
