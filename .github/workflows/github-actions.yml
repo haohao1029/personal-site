@@ -16,8 +16,8 @@ jobs:
           host: ${{secrets.SERVER_IP}}
           key: ${{secrets.SERVER_SSH}}
           username: ${{secrets.SSH_USERNAME}}
-        script: |
-          cd personal-site
-          git pull
-          cp -R ./dist/* /var/www/leadinghao.me/html
-          echo "Deployment successful"
+          script: |
+            cd personal-site
+            git pull
+            cp -R ./dist/* /var/www/leadinghao.me/html
+            echo "Deployment successful"
