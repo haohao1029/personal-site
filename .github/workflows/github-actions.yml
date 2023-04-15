@@ -15,7 +15,7 @@ jobs:
         with:
           host: ${{secrets.SERVER_IP}}
           key: ${{secrets.SERVER_SSH}}
-          username: ${{secret.SSH_USERNAME}}
+          username: ${{secrets.SSH_USERNAME}}
         script: |
           cd personal-site
           git pull
