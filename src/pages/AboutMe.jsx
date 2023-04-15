@@ -16,9 +16,12 @@ export function AboutMe() {
                             <p>
                                 I am a recent graduate from Asia Pacific University, Malaysia. I studied Computer Science and graduated with a Bachelor of Science (Hons) in Computer Science.
                                 <br />
-                                My technical interests lie in backend engineering, and machine learning. But I also have experience in frontend engineering with React and Angular. I’ve worked at various startups over the years and now I look to increase my skillsets by working on larger scale systems.
+                                My technical interests lie in backend engineering, and machine learning. But I also have experience in frontend engineering with React and Angular.
+                                I’ve worked at various startups over the years and now I look to increase my skillsets by working on larger scale systems.
                                 <br />
-                                I'm interested in solving deep technical problems. In my previous part-time and internship experiences I have solved a wide array of technical problems. If I have to share such an experience, for one of the products I worked on I designed an algorithm to fulfill customer orders with the nearest cheapest supplier, for which I drew inspiration from travelling salesman problem. I would like to continue solving such problems as part of your company where I believe engineers solve large scale problems every day
+                                I'm interested in solving deep technical problems. In my previous part-time and internship experiences I have solved a wide array of technical problems.
+                                If I have to share such an experience, for one of the products I worked on an algorithm to fulfill customer orders with the nearest cheapest supplier,
+                                for which I drew inspiration from travelling salesman problem. I would like to continue solving such problems as part of your company where I believe engineers solve large scale problems every day
                                 <br />
                                 If you want to contact me, feel free! We can talk about anything :)
                             </p>
