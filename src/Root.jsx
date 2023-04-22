@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import App from './App'
+import App from './threed/App'
 import { NavLink, Outlet } from 'react-router-dom'
 export function Root() {
     return (
@@ -13,7 +13,7 @@ export function Root() {
             </header>
             <Outlet />
 
-            <div style={{ height: "100vh", width: "100wh" }}>
+            <div style={{ height: "100vh", width: "100wh", zIndex: 1 }}>
                 <Canvas
                     camera={{
                         fov: 35,
