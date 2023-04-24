@@ -6,6 +6,7 @@ import {
   RouterProvider, NavLink, Link, BrowserRouter
 } from 'react-router-dom'
 import { AboutMe } from './pages/AboutMe'
+import { Project } from './pages/Project'
 import { Root } from './Root'
 const router = createBrowserRouter([
   {
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
       {
         path: "/about-me",
         element: <AboutMe />,
+      }, {
+        path: "/project",
+        element: <Project />,
       }
     ]
   },
