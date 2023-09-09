@@ -8,39 +8,39 @@ export function Project() {
         <>
             <div id="content" className='container-xxl'>
                 <div className="row projects">
-                    <div className="col-12 col-md-4 project glass">
+                    <div className=" col-12 col-md-4 project glass">
                         <h1>Personal Site</h1>
                         <b>Project Duration: 1 week</b>
                         <p>
-                            A personal site showcasing my previous projects and work.
-                            I utilized React, r3f, nginx, and GitHub Actions for CI/CD to deploy this site. I also implemented best practices from GitHub, such as branching and version tagging.
-                        </p>
+                        A personal site showcasing my previous projects and work.
+                            I utilized React, r3f, nginx, and GitHub Actions for CI/CD to deploy this site. I also implemented best practices from GitHub, such as branching and version tagging.                        </p>
                     </div>
                     <div className="col-12 col-md-8">
                         <div className="row ">
                             <div className="col-md-1"></div>
                             <div className="glass project col-md-11">
-                                <h1>Covid-19 Detection System using Audio</h1>
+                            <h1>Covid-19 Detection System using Audio</h1>
                                 <p>
                                     A web-based system that detects Covid-19 using audio.
                                     <br />
                                     Several machine learning models, including XGBoost and ExtraTree, were compared.
                                     <br />
-                                    The system achieved an accuracy of 85% and an F1 score of 73%.
+                                    The system unable to achieve high accuracy due to the lack of the knowledge of the ML.
                                 </p>
                                 <div className="col-md-4">
-                                    <a href="covid-detection.leadinghao.me" target="_blank" rel="noopener noreferrer" className="project-btn">Web</a>
+                                    <a href="covid-detection.leadinghao.me" target="_blank" className="project-btn">Web</a>
                                 </div>
                                 <div className="row">
-                                    <img className='project-img' alt="covid-detection-main" src='project/covid-detection-main.png' />
-                                    <img className='project-img' alt="covid-detection-disclaimer" src='project/covid-detection-disclaimer.png' />
-                                    <img className='project-img' alt="covid-detection-recorder" src='project/covid-detection-recorder.png' />
+                                    <img className='project-img' src='project/covid-detection-main.png' />
+                                    <img className='project-img' src='project/covid-detection-disclaimer.png' />
+                                    <img className='project-img' src='project/covid-detection-recorder.png' />
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div className="glass project col-12">
-                        <h1>Traveling Salesman Problem</h1>
+                        <h1>Travel salesman problem</h1>
                         <div className="row">
                             <div className="col-12">
                                 <p>
@@ -56,8 +56,7 @@ export function Project() {
                         <div className="row">
                             <div className="col-12">
                                 <p>
-                                    A chicken farm asset management system that enables stock-in and stock-out management of assets and chickens. Additionally, the system forecasts chicken feed requirements based on chicken mortality rates, growth patterns, chick purchase orders, and chicken sales orders.
-                                </p>
+                                A chicken farm asset management system that enables stock-in and stock-out management of assets and chickens. Additionally, the system forecasts chicken feed requirements based on chicken mortality rates, growth patterns, chick purchase orders, and chicken sales orders.                                </p>
                             </div>
                         </div>
                     </div>
