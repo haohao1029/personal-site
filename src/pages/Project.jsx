@@ -25,7 +25,7 @@ export function Project() {
                                     <br />
                                     Several machine learning models, including XGBoost and ExtraTree, were compared.
                                     <br />
-                                    The system unable to achieve high accuracy due to the lack of the knowledge of the ML.
+                                    The system unable to achieve high accuracy due to the lack of the ML knowledge.
                                 </p>
                                 <div className="col-md-4">
                                     <a href="covid-detection.leadinghao.me" target="_blank" className="project-btn">Web</a>
