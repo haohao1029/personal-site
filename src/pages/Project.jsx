@@ -28,7 +28,7 @@ export function Project() {
                                     The system unable to achieve high accuracy due to the lack of the ML knowledge.
                                 </p>
                                 <div className="col-md-4">
-                                    <a href="covid-detection.leadinghao.me" target="_blank" className="project-btn">Web</a>
+                                    <a href="https://github.com/haohao1029/COVID-19-DETECTION-MODEL" target="_blank" className="project-btn">Web</a>
                                 </div>
                                 <div className="row">
                                     <img className='project-img' src='project/covid-detection-main.png' />
