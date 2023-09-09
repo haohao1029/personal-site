@@ -14,16 +14,11 @@ export function AboutMe() {
                         <div className="col-12 col-sm-12 col-md-6">
                             <h1>I am Kingsley</h1>
                             <p>
-                                I am a recent graduate from Asia Pacific University, Malaysia. I studied Computer Science and graduated with a Bachelor of Science (Hons) in Computer Science.
+                                I recently graduated with a Bachelor of Science (Hons) in Computer Science from Asia Pacific University, Malaysia. Although my core interests lie in backend engineering and machine learning, I also have hands-on experience with frontend technologies like React and Angular. Over the years, I've had the opportunity to contribute to various startups, and I am now keen to challenge myself further by working on larger scale systems.
                                 <br />
-                                My technical interests lie in backend engineering, and machine learning. But I also have experience in frontend engineering with React and Angular.
-                                I’ve worked at various startups over the years and now I look to increase my skillsets by working on larger scale systems.
-                                <br />
-                                I'm interested in solving deep technical problems. In my previous part-time and internship experiences I have solved a wide array of technical problems.
-                                If I have to share such an experience, for one of the products I worked on an algorithm to fulfill customer orders with the nearest cheapest supplier,
-                                for which I drew inspiration from travelling salesman problem. I would like to continue solving such problems as part of your company where I believe engineers solve large scale problems every day
-                                <br />
-                                If you want to contact me, feel free! We can talk about anything :)
+                                I am passionate about diving deep into technical problems. In one of my previous roles, I developed an algorithm to efficiently match customer orders with the nearest, most cost-effective supplier. This solution was inspired by the travelling salesman problem. I'm eager to tackle similar challenges at your company, where I understand engineers address complex, large-scale issues regularly.
+                                
+                                If you'd like to get in touch, please don't hesitate. I'm open to discussing anything!
                             </p>
                         </div>
                     </div>
